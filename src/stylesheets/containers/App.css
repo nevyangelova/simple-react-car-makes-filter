@@ -1,0 +1,15 @@
+@import './form.css';
+@import './vehicles.css';
+@import '../components/vehicle-card.css';
+@import '../../../node_modules/react-notifications/lib/notifications.css';
+@import '../../../node_modules/rc-slider/assets/index.css';
+
+body {
+  background:
+    linear-gradient(
+      rgba(13, 38, 77, 0.8),
+      rgba(13, 38, 77, 0.8)
+    ),
+    url("../pop-art-collage.png");
+    min-width: 240px;
+}

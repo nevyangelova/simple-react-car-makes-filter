@@ -1,0 +1,28 @@
+.container {
+  width: 75%;
+  margin: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10%;
+}
+
+.flex-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.right-arrow {
+  font-size: 60px;
+  font-family: Roboto;
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-top: 15%;
+  }
+
+  .right-arrow {
+    display: none;
+  }
+}
